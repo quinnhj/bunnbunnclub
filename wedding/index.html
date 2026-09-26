@@ -23,12 +23,10 @@
       h2 { font-size: clamp(30px, 2.5vw, 34px); line-height: 1.2; }
       h1 + p, h2 + p { margin-top: 28px; }
       p + p { margin-top: 24px; }
-      .intro { margin-bottom: 150px; }
-      .event + .event { margin-top: 110px; }
+      main > section + section { margin-top: 110px; }
 
       @media (max-width: 600px) {
-        .intro { margin-bottom: 75px; }
-        .event + .event { margin-top: 75px; }
+        main > section + section { margin-top: 75px; }
       }
     </style>
   </head>
