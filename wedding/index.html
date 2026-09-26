@@ -5,28 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow">
     <title>Chellie + Quinn — Wedding</title>
+    <style>
+      body {
+        margin: 0;
+        color: #303030;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: clamp(20px, 2.4vw, 30px);
+        line-height: 1.3;
+      }
+
+      main {
+        max-width: 824px;
+        margin: 0 auto;
+        padding: 38px 24px 100px;
+      }
+
+      h1, h2, p { margin: 0; }
+      h1 { font-size: clamp(38px, 4.4vw, 56px); line-height: 1.1; }
+      h2 { font-size: clamp(30px, 3.5vw, 44px); line-height: 1.2; }
+      h1 + p, h2 + p { margin-top: 36px; }
+      p + p { margin-top: 34px; }
+      .intro { margin-bottom: 210px; }
+      .event + .event { margin-top: 145px; }
+
+      @media (max-width: 600px) {
+        .intro { margin-bottom: 100px; }
+        .event + .event { margin-top: 100px; }
+      }
+    </style>
   </head>
   <body>
     <main>
-      <h1>Chellie + Quinn</h1>
+      <section class="intro">
+        <h1>Chellie + Quinn</h1>
+        <p>Fri 10/16 + Sat 10/17</p>
+        <p>Dress Code: (Dressy) Casual</p>
+        <p>Registry: None! Just be here and say hi!</p>
+      </section>
 
-      <h2>Key facts</h2>
-      <p><strong>Who:</strong> Chellie + Quinn</p>
-      <p><strong>Dates:</strong> Fri 10/16 + Sat 10/17</p>
-      <p><strong>Dress Code:</strong> (Dressy) Casual</p>
-      <p><strong>Registry:</strong> None! Just be here and say hi!</p>
+      <section class="event">
+        <h2>Ceremony</h2>
+        <p>10/16 2:30 - 3:00 pm</p>
+        <p>1106 Madison St, Oakland, CA 94607</p>
+      </section>
 
-      <h2>Ceremony</h2>
-      <p>10/16 2:30 - 3:00 pm</p>
-      <p>1106 Madison St, Oakland, CA 94607</p>
+      <section class="event">
+        <h2>Dinner @ Pomet:</h2>
+        <p>10/16 5:00 - 7:30 pm</p>
+        <p>4029 Piedmont Ave, Oakland, CA 94611</p>
+        <p>Food: Fancy Californian</p>
+      </section>
 
-      <h2>Dinner @ Pomet</h2>
-      <p>10/16 5:00 - 7:30 pm</p>
-      <p>4029 Piedmont Ave, Oakland, CA 94611</p>
-
-      <h2>Lunch “Reception”</h2>
-      <p>10/17 12:00 - 3:00 pm</p>
-      <p>1713 Virginia St, Berkeley, CA 94703, USA</p>
+      <section class="event">
+        <h2>Lunch “Reception” @ Vicky’s Backyard</h2>
+        <p>10/17 12:00 - 3:00 pm</p>
+        <p>1713 Virginia St, Berkeley, CA 94703, USA</p>
+        <p>Food: Great China (Peking Duck, Double Skin, and more!)</p>
+      </section>
     </main>
   </body>
 </html>
